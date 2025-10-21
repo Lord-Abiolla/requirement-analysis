@@ -47,3 +47,26 @@ Requirement Analysis is a phase in Software Development lifecycle (SDLC) where t
 |-----------------------------|-----------------------------------|
 | Describe what the system should do | Describe how the system should perform |
 | Examples include user authentication, property search, booking system, user registration | Examples include Performance, security, scalability, usability, reliability |
+
+
+## Use Case Diagrams.
+A usecase diagram is a visual representation of interactions between users and the system.
+It shows how different users (actors) interact with the system to achieve specific goals (use cases).
+
+[alx_booking_usecase](./alx-booking-uc.png)
+
+## Acceptance Criteria.
+
+**Acceptance criteria** are conditions that a feature must meet to be accepted by the stakeholders.
+
+Acceptance criteria serves the following purposes in Requirement Analysis:
+- Ensure all parties have a clear understanding of feature requirements.
+- Provide a basis for testing and validation.
+- Help in maintaining quality and meeting user expectations.
+
+Acceptance criteria for Checkout feature in a booking management system include:
+- Display Checkout page: The system should display the checkout page showing booking details
+- Payment Options: The system should display available payment methods
+- Valid payment processing: The payment should be processed successfully, and the booking status should update.
+- Confirmation Receipt: The system should display a booking confirmation page with a summary of the booking.
+- Data Security: All sensitive data should be transmitted over a secure HTTPS connection, and no card details should be stored in plain text.
